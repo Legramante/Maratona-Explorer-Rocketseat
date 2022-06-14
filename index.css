@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2020/12/espaco-sideral-viktorovpro-shutterstock.jpg);
+/*background-color: black;*/
+color: white;
+text-align: center;
+font-family: sans-serif;
+}
+
+#container
+{
+ margin-top: 50px;
+ width: 80%;
+ max-width: 400px;
+ margin-inline: auto;
+}
+
+h1{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p{
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+input{
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14pt;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+  border: none;
+}
+
+button
+{
+  width: 80%;
+  padding: 10px;
+  font-size: 14pt;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  transition: filter 0.3s;
+}
+
+button:hover
+{
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta
+{
+  margin-top: 20px;
+  transition: opacity 1s ;
+}
+
+#resposta div{
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
